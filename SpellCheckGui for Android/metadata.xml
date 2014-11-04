@@ -1,0 +1,10 @@
+<ipojo>
+<component classname="org.apache.felix.ipojo.android.gui.SpellCheckGui">
+	<provides/>
+	<requires optional="true">
+		<callback type="bind" method="bindSpellChecker"/>
+	    <callback type="unbind" method="unbindSpellChecker"/>
+    </requires>
+</component>
+<instance component="org.apache.felix.ipojo.android.gui.SpellCheckGui"/>
+</ipojo>
